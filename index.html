@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/terminat.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- navbar  -->
+  <nav class="navbar shadow b-ground navbar-expand-lg fixed-top navbar-light bg-light px-lg-5 px-2 animate__animated animate__fadeInDown">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/pngwing.com (1).png" class="logo" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link cotext active" aria-current="page" data-i18n="home" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="about" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="service" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="portfolio" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-i18n="contact" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="obtion b-ground">
+          <select class="border-0 b-ground language form-select cotext">
+            <option class="" value="en" data-i18n="english">English</option>
+            <option class="arabic" value="ar" data-i18n="arabic">
+              Arabic
+            </option>
+          </select>
+          <div class="dark-botton">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+              <i class="fas fa-moon"></i>
+              <i class='fas fa-sun'></i>
+              <div class='ball'>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- intro-bage  -->
+  <div class="intro" id="">
+    <div class=" container py-6 mt-5">
+      <div class="row gap-md-5">
+        <div class="col-sm align-self-center sm-order animate__animated animate__fadeInLeft"><i class="fa-sharp fa-solid fa-right-long spec-color"></i>
+          <h4 class="badge spec-color" data-i18n="hello">-- Helo</h4>
+          <h1 class="fw-bold">
+            <span data-i18n="men"> i'am </span>
+            <span class="spec-color" data-i18n="name1">Karim</span>
+            <span data-i18n="name2">Eprahim Alhawy </span>
+          </h1>
+          <p data-i18n="letter" class="py-3">
+            my name is karim , i'am FrontEnd developer py
+            python and django since 2 years ,i make many
+            prjects website and ecommerce
+          </p>
+          <a href="cv/my-cv2.pdf" class="btn mt-2 animate__animated animate__tada animate__delay-1s" data-i18n="cv">DOWNLOAD CV</a>
+        </div>
+        <div class="col-sm animate__animated animate__fadeInRight">
+          <img class="mw-80 d-block mx-auto" src="img/portfolio3.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- about  -->
+  <div class="about" id="about">
+    <div class="container py-6">
+      <div class="row row-cols-1 row-cols-sm-2 mb-5">
+        <div class="col pro-photo d-flex animation-left">
+          <img class="mw-100 web-img mx-auto" src="img/Website designer-amico.svg" alt="">
+        </div>
+        <div class="col align-self-center animation-right"><i class="fa-sharp fa-solid fa-right-long head-color fs-4 mx-2 animation"></i>
+          <h2 class="mb-4 fw-bold head-color d-inline-block" data-i18n="abouts"> About Me</h2>
+          <div class="mb-4">
+            <p data-i18n="aboutPrgraph1">
+              Talented backend developer adept at contributing to a highly collaborative work environment, finding
+              solutions and determining customer satisfaction. Designed and developed web applications across multiple
+              APIs, third-party integrations and databases,
+            </p>
+            <p data-i18n="aboutPrgraph2">
+              I have successfully met deadlines on every project I’ve worked on.I have experience working as part of a
+              team and individually.
+            </p>
+          </div>
+          <div class="font">
+          </div>
+          <div class="d-flex gap-md-5 gap-1">
+            <button class="btn px-3" data-i18n="hire">Hire Me</button>
+            <button class="btn px-3" data-i18n="dash">---</button>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="row">
+          <div class="col-md-2 col-sm-12 my-skills spec-color animation-left">
+            My Skills
+          </div>
+          <div class="col-md-5 col-sm-6 dirction animation-left">
+            <div class="skill html">
+              <div class="skill-lab">HTML</div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="skill css">
+              <div class="skill-lab">CSS</div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="skill js">
+              <div class="skill-lab">JAVASCRIPT</div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-6 dirction animation-right">
+            <div class="skill vue">
+              <div class="skill-lab">vue.js</div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="skill bootstrap">
+              <div class="skill-lab">Bootstrap</div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            <div class="skill githup">
+              <div class="skill-lab">Git & Githup</div>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advanced-skills px-5 animation">
+        <h3 class="px-3 py-3"> <i class="fa-solid fa-star px-1 fs-4 spec-color"></i>Advanced</h3>
+        <div class="ad-skill px-5">
+          <p class="animation-up"><i class="fa-solid fa-square-check px-1"></i> Full Responsive web design</p>
+          <p class="animation-up"><i class="fa-solid fa-square-check px-1"></i> Good knowladge of API</p>
+          <p class="animation-up"><i class="fa-solid fa-square-check px-1"></i> Good knowladge of JSON</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- expertise -->
+  <div class="experties" id="service">
+    <div class="container py-6">
+      <div class="text-center animation-up">
+        <h2 class="fw-bold mb-3 head-color" data-i18n="experties">Additional expertises</h2>
+        <p data-i18n="expertiesPargraph">I've been in many fields besides backend developing and have combined them in
+          many of my projects</p>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-3 mt-5 py-4 gap-3 gap-sm-0">
+        <div class="col animation-left">
+          <div class="card b-ground text-center py-2 shadow experience">
+            <i class="fa-solid fa-images pt-3 fs-2 spec-color"></i>
+            <div class="card-body">
+              <h5 class="card-title">Photoshop</h5>
+              <p class="card-text" data-i18n="Photoshop">
+                I learned Photoshop in a short period of time and have done many projects
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col animation-up">
+          <div class="card b-ground text-center  py-2 shadow experience">
+            <i class="fa-solid fa-paint-roller pt-3 fs-2 spec-color"></i>
+            <div class="card-body">
+              <h5 class="card-title">UI & UX</h5>
+              <p class="card-text" data-i18n="ui">
+                Use it to deal with colors and i design some pages with it
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col animation-right">
+          <div class="card b-ground text-center py-2 shadow experience">
+            <i class="fa-sharp fa-solid fa-plug pt-3 fs-2 spec-color"></i>
+            <div class="card-body">
+              <h5 class="card-title">Electronic</h5>
+              <p class="card-text" data-i18n="electronic">
+                I learned the basics in electronics and did many simple electronic projects
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- featured works -->
+  <div class="featured" id="portfolio">
+    <div class="container py-6">
+      <div class="text-center animation-up">
+        <h2 class="fw-bold mb-3 head-color" data-i18n="works">featured works</h2>
+        <p data-i18n="worksPargraph">There are many distinguished works that you can view</p>
+      </div>
+      <div class="row filter">
+        <div class="col animation-up">
+          <h5 class="fs-6 selected">Some</h5>
+        </div>
+        <div class="col animation-up">
+          <a class="fs-6 text-decoration-none" href="portfolio.html">All</a>
+        </div>
+        <!-- <div class="col animation-up">
+          <h5 class="fs-6">API</h5>
+        </div>
+        <div class="col animation-up">
+          <h5 class="fs-6">PostgreSQL</h5>
+        </div> -->
+      </div>
+      <div class="projects">
+        <div class="project animation-up">
+          <a href="https://karim-eprahim.github.io/Road_Academy/">
+            <img class="d-none d-md-block" src="img/projects/RoadTablet-min.PNG">
+            <img class="d-md-none" src="img/projects/Road-min.PNG">
+          </a>
+          <div class="project-title">
+            <h5 class="fs-5 head-color">RoadAcademy</h5>
+            <p class="fs-6">HTML, CSS, JS, Bootstrap </p>
+          </div>
+        </div>
+        <div class="project animation-up">
+          <a href="https://karim-eprahim.github.io/El-Nour/">
+            <img class="mw-100" src="img/projects/dashboard-min.PNG" alt="">
+          </a>
+          <div class="project-title">
+            <h5 class="fs-5 head-color">dashboard</h5>
+            <p class="fs-6">HTML, CSS, JS</p>
+          </div>
+        </div>
+        <div class="project animation-up">
+          <a href="https://karim-eprahim.github.io/temp2/">
+            <img class="d-none d-md-block" src="img/projects/temp2Taplet-min.PNG">
+            <img class="d-md-none" src="img/projects/temp2-min.PNG">
+          </a>
+          <div class="project-title">
+            <h5 class="fs-5 head-color">Kaspes Site</h5>
+            <p class="fs-6">HTML, CSS, JS</p>
+          </div>
+        </div>
+        <div class="project animation-up">
+          <a href="https://tour-517f3.web.app/">
+            <img class="d-none d-md-block" src="img/projects/tourTaplet-min.PNG">
+            <img class="d-md-none" src="img/projects/tour-min.PNG">
+          </a>
+          <div class="project-title">
+            <h5 class="fs-5 head-color">Tour</h5>
+            <p class="fs-6">HTML, CSS, JS , Vue.js , BootStrap</p>
+          </div>
+        </div>
+        <div class="project animation-up">
+          <a href="https://karim-eprahim.github.io/porfolio/">
+            <img class="mw-100" src="img/projects/portfolio-min.PNG" alt="">
+          </a>
+          <div class="project-title">
+            <h5 class="fs-5 head-color">portfolio</h5>
+            <p class="fs-6">HTML, CSS, JS</p>
+          </div>
+        </div>
+        <div class="project animation-up">
+          <a href="https://motor-show-264a6.web.app/">
+            <img src="img/projects/car-shop-min.PNG" alt="">
+          </a>
+          <div class="project-title">
+            <h5 class="fs-5 head-color">Auto Car</h5>
+            <p class="fs-6">HTML, CSS, JS , Vue.js, BootStrap</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- testimonials  -->
+  <div class="testimonials" id="">
+    <div class="container py-6">
+      <div class="text-center animation-up">
+        <h2 class="fw-bold mb-3 head-color" data-i18n="testimonials">testimonials</h2>
+        <p data-i18n="testimonialsPargraph">Over the years I’ve accumulated thousands of projects and have been
+          acquainted with some fantastic people along the way</p>
+      </div>
+      <div class="row dirction animation-up">
+        <div class="col-md-12 col-sm-12">
+          <div id="testimonial-slider" class="owl-carousel">
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40" data-i18n="testm1">I can’t recommend him highly enough and we look forward to
+                    continuing our working relationship together.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/user.jpg"></div>
+                <h4 class="darkcolor">same khalid</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">كان مفيدًا جدًا وسريعًا للرد على استفساري للمساعدة في مشكلات موقع Wordpress. كانت
+                    معرفته شاملة</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/user.jpg"></div>
+                <h4 class="darkcolor">mohamed hassan</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat
+                    porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/user.jpg"></div>
+                <h4 class="darkcolor">fares ali</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat
+                    porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/images.png"></div>
+                <h4 class="darkcolor">David kamal</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat
+                    porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/images.png"></div>
+                <h4 class="darkcolor">karam ali</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat
+                    porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/images.png"></div>
+                <h4 class="darkcolor">mahmoud guida</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat
+                    porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/images.png"></div>
+                <h4 class="darkcolor">Shamoun Raleway</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat
+                    porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/images.png"></div>
+                <h4 class="darkcolor">fares awad</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimonial-wrapp"> <span class="quoted"><i class="fa fa-quote-right"></i></span>
+                <div class="testimonial-text">
+                  <p class="bottom40">Donec semper euismod nisi quis feugiat. Nullam finibus metus eget orci volutpat
+                    porta. Morbi quis arcu vulputate, dignissim mi ac, varius magna.</p>
+                </div>
+                <div class="testimonial-photo"><img alt="" src="img/testimonials/images.png"></div>
+                <h4 class="darkcolor">abdo kareem</h4>
+                <small class="defaultcolor">Businessman</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- say -->
+  <div class="say">
+    <div class="container py-6">
+      <div class="text-center">
+        <p class="text-capitalize fw-bold animation-up" data-i18n="say">have any project in mind ?</p>
+        <h2 class="fs-1 my-4 head-color text-capitalize animation-up" data-i18n="sayPargraph">Just Say Hello !</h2>
+        <a class="btn px-5 animate__animated animate__shakeX animate__delay-1s" href="https://wa.me/201023609534" data-i18n="me">Hire Me</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div class="contact" id="contact">
+    <div class="container py-6">
+      <div class="row">
+        <div class="col-md fs-4 animation-left">
+          <div class="leter-work">
+            <p class="m-0" data-i18n="contact1">
+              Let's make something new,
+            </p>
+            <p class="m-0" data-i18n="contact2">
+              different and more meaningful or make thing more visual
+            </p>
+            <p class="m-0 d-inline-block" data-i18n="contact3">
+              or conceptual ?
+            </p>
+            <a href="#" class="text-decoration-none head-color fw-bold text-capitalize" data-i18n="sayPargraph">just say
+              hello</a>
+          </div>
+          <div class="my-cont">
+            <ul class="fs-6 head-color phon">
+              <li><a href="">+201023609534</a></li>
+              <li><a href="">karimalhawy0@gmail.com</a></li>
+              <li><a href="">Elmnaif , Ismailia , Egypt</a></li>
+            </ul>
+            <ul class="d-flex mt-4 list-unstyled gap-3 justify-content-sm-start footer-social px-3">
+              <li>
+                <a class="d-block text-white facebook" href="">
+                  <i class="fa-brands fa-facebook "></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-white twitter" href="">
+                  <i class="fa-brands fa-twitter "></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-white instagram" href="">
+                  <i class="fa-brands fa-square-instagram "></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-white linkedin" href="">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a class="d-block text-white whatsapp" href="">
+                  <i class="fa-brands fa-whatsapp "></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md animation-right">
+          <form class="form shadow-lg p-4 d-block" action="">
+            <div class="mb-3 input-item">
+              <label for="exampleInputEmail1" class="form-label" data-i18n="yname">Your Name</label>
+              <input type="text" class="form-control" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 input-item">
+              <label for="exampleInputEmail1" class="form-label" data-i18n="ymail">Mail Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 input-item">
+              <label for="exampleInputEmail1" class="form-label" data-i18n="ybudget">Your Budget</label>
+              <input type="text" class="form-control" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3 input-item">
+              <label for="exampleFormControlTextarea1" class="form-label" data-i18n="yproject">Project
+                Description</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1" data-i18n="check">Check me out</label>
+            </div>
+            <button type="submit" class="btn px-3" data-i18n="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js\script.js" type="module"></script>
+  <!--Testimonials Ends-->
+  <script src="js/term/jquery-3.6.0.min.js"></script>
+  <!--Owl Slider-->
+  <script src="js/term/owl.carousel.min.js"></script>
+  <script src="js/term/functions.js"></script>
+</body>
+
+</html>
